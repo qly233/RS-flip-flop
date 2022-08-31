@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\szdl\RS\RS.ncd
+OUTFILE=D:\szdl\RS\RS.bit
+FAMILY=Artix7
+PART=xc7a100t-2lfgg484
+WORKINGDIR=D:\szdl\RS
+LICENSE=WebPack
+USER_INFO=__0_0_0

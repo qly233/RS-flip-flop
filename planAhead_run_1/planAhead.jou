@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sun Nov 28 22:15:22 2021
+# Process ID: 26228
+# Log file: D:/szdl/RS/planAhead_run_1/planAhead.log
+# Journal file: D:/szdl/RS/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/szdl/RS/pa.fromNetlist.tcl
+set_property iostandard LVCMOS18 [get_ports [list Q]]
+set_property iostandard LVCMOS18 [get_ports [list Qb]]
+set_property iostandard LVCMOS18 [get_ports [list R]]
+set_property iostandard LVCMOS18 [get_ports [list S]]
+set_property pulltype PULLDOWN [get_ports [list R]]
+set_property pulltype PULLDOWN [get_ports [list S]]
+set_property package_pin "" [get_ports [list  Q]]
+set_property package_pin "" [get_ports [list  R]]
+startgroup
+set_property package_pin R1 [get_ports Q]
+endgroup
+startgroup
+set_property package_pin P2 [get_ports Qb]
+endgroup
+startgroup
+set_property package_pin T3 [get_ports R]
+endgroup
+startgroup
+set_property package_pin U3 [get_ports S]
+endgroup
+save_constraints
